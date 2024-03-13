@@ -22,7 +22,8 @@ public class Date {
   private final int day;
   private final int month;
   private final int year;
-  private final int Andrea = 5; 
+  private final int secondMiguel = 60;
+  private final int Andrea = 5;
 
   /**
    * Retrieves the day component of this date.
@@ -58,14 +59,13 @@ public class Date {
    * @param month The month of the year (1-12).
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
+<<<<<<< HEAD
    */
 
-
-  // Constructor modified by the collaborator
-  public Date(int tag, int monat, int jahr) {
-    this.day = tag;
-    this.month = monat;
-    this.year = jahr;
+  public Date(int day, int month, int year) {
+    this.day = day;
+    this.month = month;
+    this.year = year;
   }
 
 
