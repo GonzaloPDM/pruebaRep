@@ -23,6 +23,7 @@ public class Date {
   private final int month;
   private final int year;
   private final int secondMiguel = 60;
+  private final int Andrea = 5;
 
   /**
    * Retrieves the day component of this date.
